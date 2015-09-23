@@ -1,0 +1,133 @@
+
+
+html {
+  font-family: Helvetica;
+  
+}
+nav a {
+	  text-decoration: none;
+	  font-variant: small-caps;
+	  color: #909090;
+}
+
+h3 {
+  color: #e75640;
+}
+
+header {
+    width: 100% !important;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
+    background: white;
+
+}
+
+
+
+.container {
+  width: 80%;
+  max-width: 1280px;
+  max-width: 940px; /*following the psd file but would suggest at least 1024px*/
+  margin: auto;
+  margin: 0 10%;
+  padding: 0 0.75%;
+  float: none;
+  clear: none
+ }  
+
+
+
+
+.fluid {
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+
+
+.logo {
+position: absolute;
+}
+ nav {
+
+ }
+
+ .Areas a {
+color: white;
+font-weight: bold;
+font-size: 130%;
+
+ }
+
+ .top_nav  {
+  text-align: right;
+  display: inline-block;
+}
+
+.admin ul li  {
+	background: #f4f4f4;
+	padding: 4px;
+
+}
+
+.top_nav .phone a {color: #e75640}
+
+.top_nav .phone a {color: #e75640}
+.top_nav ul {
+  list-style-type: none;
+      margin: 0.5%;
+ }
+
+
+ .top_nav ul li { 
+  display: inline;   }
+
+
+
+
+ul.Areas  li {
+    width: 32.2033%;
+    clear: none;
+    display: inline-block;
+}
+
+.drop_down {
+  display: none;
+}
+
+
+.hero-image  {
+  background: url('../images/hero_image.jpg') no-repeat center center fixed; 
+
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   min-height: 670px;
+   width:100%;
+    position:  relative;
+}
+
+.hero-image .hero-bottom {
+  bottom: 0;
+  position: absolute;
+  float: left;
+  text-align: center;
+}
+
+
+.featured section {
+  display: block;
+  width: 25%
+}
+
+.featured section img {
+  border: 3px solid #f4f4f4;
+  width: 100%
+}
+
+
